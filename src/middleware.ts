@@ -1,6 +1,6 @@
 // 中间件
 import { NextRequest, NextResponse } from "next/server";
-import { verifyToken } from "./lib/auth";
+import { verifyToken } from "./lib/jwt";
 // 需要登录的路径
 const protectedPaths = ["/records", "/reports"];
 
